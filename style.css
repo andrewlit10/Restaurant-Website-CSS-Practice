@@ -80,3 +80,18 @@ button {
     color: white;
     border: none;
 }
+.features-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.feature {
+    display: flex;
+    gap: 10px;
+}
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    max-width: 200px;
+}
