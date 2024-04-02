@@ -156,6 +156,7 @@ input {
 .grid-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
+    min-height: 100%;
 }
 .grid-2 {
    grid-column: 3;
@@ -180,10 +181,16 @@ input {
  .grid-7 {
     grid-column: 4;
     grid-row: 2 / span 2;
-    object-fit: cover;
     
     
  }
- .grid-7 img {
-    min-height: 99.5%;
+ .grid-image {
+    border-radius: 10px;
+ }
+
+ .grid-image:hover {
+    transform: scale(1.05);
+    transition: 0.5 ease-in-out;
+    height: 100%;
+    width: 100%;
  }
