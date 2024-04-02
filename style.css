@@ -117,9 +117,7 @@ button {
     padding: 15px 0 25px 0;
     font-size: 2rem;
 }
-.grid {
 
-}
 
 .footer-container {
     display: flex;
@@ -144,3 +142,44 @@ h3 {
 input {
     width: 250px;
 }
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit);
+    grid-template-rows: repeat(auto-fit);
+    align-self: center;
+    padding-bottom: 150px;
+}
+
+
+.grid-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+.grid-2 {
+   grid-column: 3;
+   grid-row: 1 / span 2; 
+}
+.grid-3 {
+    grid-column: 4;
+    grid-row: 1; 
+ }
+ .grid-4 {
+    grid-column: 1;
+    grid-row: 3; 
+ }
+ .grid-5 {
+    grid-column: 2;
+    grid-row: 3; 
+ }
+ .grid-6 {
+    grid-column: 3;
+    grid-row: 3; 
+ }
+ .grid-7 {
+    grid-column: 4;
+    grid-row: 2 / span 2; 
+    
+    
+ }
