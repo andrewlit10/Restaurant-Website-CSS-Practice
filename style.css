@@ -179,7 +179,11 @@ input {
  }
  .grid-7 {
     grid-column: 4;
-    grid-row: 2 / span 2; 
+    grid-row: 2 / span 2;
+    object-fit: cover;
     
     
+ }
+ .grid-7 img {
+    min-height: 99.5%;
  }
